@@ -4,7 +4,7 @@ from types import SimpleNamespace
 import unittest
 from unittest.mock import patch
 
-import move_character_with_key as game
+import drill09 as game
 
 
 class MovementTests(unittest.TestCase):

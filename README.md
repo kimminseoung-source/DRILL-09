@@ -27,14 +27,14 @@ Python 3.10 이상을 설치한 뒤 저장소 폴더의 터미널에서 실행�
 ```powershell
 py -3 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe move_character_with_key.py
+.\.venv\Scripts\python.exe drill09.py
 ```
 
 이미지는 소스 파일 위치를 기준으로 읽으므로 다른 작업 폴더에서 실행해도 됩니다. `.venv`는 Git에 포함되지 않으며 컴퓨터마다 설치해야 합니다.
 
 ## 파일
 
-- `move_character_with_key.py`: 과제 실행 진입점, 입력·이동·애니메이션·렌더링
+- `drill09.py`: 과제 실행 진입점, 입력·이동·애니메이션·렌더링
 - `animation_sheet.png`: 4행 × 8프레임 소년 스프라이트 원본
 - `TUK_GROUND.png`: 과제 지정 배경 원본
 - `run.cmd`: Windows 실행 파일
